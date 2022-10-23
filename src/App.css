@@ -1,0 +1,14 @@
+.container {
+    width: 30%;
+    margin: 2% auto;
+    overflow: auto;
+    border: 2px solid palevioletred;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 80%;
+    }
+}
